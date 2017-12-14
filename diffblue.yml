@@ -1,2 +1,3 @@
 buildCmd: 'mvn install; mvn compile'
 testCmd: 'mvn install; mvn test'
+skipDifferentialAnalysis: true
