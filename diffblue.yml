@@ -1,2 +1,1 @@
-buildCmd: 'mvn install; mvn compile'
-testCmd: 'mvn install; mvn test'
+buildCmd: 'mvn -e -X -Dmaven.test.skip=true install; mvn compile'
